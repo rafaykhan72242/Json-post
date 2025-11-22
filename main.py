@@ -3,9 +3,15 @@ import json
 import os
 from FBTools import Start
 
-# Colors
+# Colors - YE WALA CODE REPLACE KAREIN
 class C:
-    R="\033[0m"; G="\033[92m"; Y="\033[93m"; B="\033[94m"; R2="\033[91m"; P="\033[95m"
+    R = "\033[0m"   # Reset
+    G = "\033[92m"  # Green
+    Y = "\033[93m"  # Yellow  
+    B = "\033[94m"  # Blue
+    R2 = "\033[91m" # Red
+    P = "\033[95m"  # Pink
+    C = "\033[96m"  # Cyan - YE ADD KAREIN
 
 def load_cookies(cookie_path):
     """Cookie file load karta hai"""
@@ -99,4 +105,5 @@ def main_interface():
             print(C.R2 + "❌ Invalid option!" + C.R)
 
 if __name__ == "__main__":
+
     main_interface()
